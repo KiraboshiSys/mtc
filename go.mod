@@ -1,4 +1,4 @@
-module github.com/mickamy/mtc
+module github.com/KiraboshiSys/mtc
 
 go 1.24.0
 

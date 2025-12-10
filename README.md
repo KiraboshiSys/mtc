@@ -1,3 +1,8 @@
+# Fork Notice
+
+- This repository is a fork of `github.com/mickamy/mtc`.
+- Module path has been changed to `github.com/KiraboshiSys/mtc` for long-term internal use.
+
 # mtc — Multi-Tenant Connector for Go (RLS + Context)
 
 `mtc` is a lightweight Go library that automatically applies tenant-scoped
@@ -16,7 +21,7 @@ Row-Level Security (RLS).
 ## Installation
 
 ```bash
-go get github.com/mickamy/mtc
+go get github.com/KiraboshiSys/mtc
 ```
 
 ## Quick Start
@@ -30,7 +35,7 @@ import (
 	"fmt"
 
 	"github.com/jackc/pgx/v5/stdlib"
-	"github.com/mickamy/mtc"
+	"github.com/KiraboshiSys/mtc"
 )
 
 type tenantKey struct{}
